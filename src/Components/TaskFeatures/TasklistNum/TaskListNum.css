@@ -1,0 +1,24 @@
+.taskBox{
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+.taskListBox{
+    width: 25%;
+    border-radius: 20px;
+    padding: 40px 20px;
+    background-color: rgb(224, 92, 92);
+    color: white;
+}
+
+.taskListBoxBG2{
+    background: #7cff9a;
+}
+
+.taskListBoxBG3{
+    background: #74aeff;
+}
+
+.taskListBoxBG4{
+    background: #f87ae1;
+}

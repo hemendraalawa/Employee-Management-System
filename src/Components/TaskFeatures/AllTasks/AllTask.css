@@ -1,0 +1,26 @@
+.AllTaskBox{
+    padding:0 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 250px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.AllTaskBox::-webkit-scrollbar{
+    display: none;
+}
+
+.AllTaskList{
+   width: 100%;
+   background-color: rgb(43, 43, 44);
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 30px;
+   height: 50px;
+   flex-shrink: 0;
+   color: rgba(255, 255, 255, 0.806);
+}

@@ -1,0 +1,46 @@
+.formBox{
+    display: flex;
+    color: white;   
+    padding: 30px 10%;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: rgba(61, 57, 57, 0.7);
+    border-radius: 20px;
+}
+
+.AdminDashForm{
+    padding: 0 30px;
+}
+
+.formSec1,.formSec2{
+    width: 50%;
+}
+
+.formSec1 input{
+   padding: 8px 10px;
+   width: 100%;
+   margin: 10px 0px;
+   background-color: transparent;
+   border: 1px solid rgba(255, 255, 255, 0.762);
+   color: white;
+   outline: none;
+   border-radius: 5px;
+}
+
+.formSec2 textarea{
+    height: 210px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255, 0.762);
+    border-radius: 5px;
+    outline: none;
+}
+
+.formSec2 button{
+    width: 100%;
+    background-color: rgb(47, 173, 45);
+}

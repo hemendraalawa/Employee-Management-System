@@ -1,0 +1,29 @@
+.headerBox{
+    padding: 30px;
+}
+.header{
+    background-color: rgba(61, 57, 57, 0.7);
+    color: white;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-size:18px ;
+}
+
+.header h2 span{
+    font-size: 25px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: rgb(246, 120, 120);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
