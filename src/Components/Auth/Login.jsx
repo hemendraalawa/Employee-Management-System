@@ -23,7 +23,7 @@ const Login = () => {
         type="video/mp4"
       ></video>
 
-      <div className="LoginBox1">
+      {/* <div className="LoginBox1"> */}
         <div className="LoginBox2">
           <h2> Please Sign In </h2>
           <form
@@ -57,7 +57,7 @@ const Login = () => {
             <button className="formBtn">Sign In</button>
           </form>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
