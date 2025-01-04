@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Login.css";
 import { assets } from "../../assets/assets";
 
-const Login = () => {
+const Login = ({handleLogin}) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const submitHandler = (e) => {
@@ -12,7 +12,10 @@ const Login = () => {
     //  console.log("Your Email is", password);
     setEmail("");
     setPassword("");
+    handleLogin(email,password);
   };
+
+  
   return (
     <div className="LoginCover">
       <video
