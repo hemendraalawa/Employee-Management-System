@@ -3,12 +3,12 @@ import Header from "../../Header/Header";
 import CreateTask from "../../TaskFeatures/CreateTask/CreateTask";
 import AllTask from "../../TaskFeatures/AllTasks/AllTask";
 
-const AdminDash = () => {
+const AdminDash = ({Data}) => {
   return (
     <div>
-      <Header />
-      <CreateTask/>
-      <AllTask/>
+      <Header Data={Data}/>
+      <CreateTask Data={Data}/>
+      <AllTask Data={Data}/>
     </div>
   );
 };

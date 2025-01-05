@@ -1,23 +1,20 @@
 import React from "react";
 import "./TaskList.css";
-const TaskList = () => {
+const TaskList = ({Data}) => {
   return (
     <div className="TaskListBox">
       <div className="TaskBox">
         <div className="TaskDetails">
           <h4>
-            <span>High</span>
+            <span>{Data.tasks[0].complexity}</span>
           </h4>
-          <p>29 Dec 2024</p>
+          <p>{Data.tasks[0].date}</p>
         </div>
         <div className="yourTask">
-          <h3>Your Task is Here</h3>
+          <h3>{Data.tasks[0].title}</h3>
         </div>
         <div className="TaskDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-          asperiores porro incidunt fugit numquam quidem mollitia, nemo eos ea
-          consequatur corporis sit eaque corrupti, tempora amet velit ipsa dicta
-          magnam.
+          {Data.tasks[0].description}
         </div>
       </div>
     </div>

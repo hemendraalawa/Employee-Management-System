@@ -4,12 +4,12 @@ import TaskListNum from '../../TaskFeatures/TasklistNum/TaskListNum'
 import TaskList from '../../TaskFeatures/Tasklist/TaskList'
 
 
-const EmployerDash = () => {
+const EmployerDash = ({Data}) => {
   return (
     <div>
-        <Header/>
-        <TaskListNum/>
-        <TaskList/>
+        <Header Data={Data}/>
+        <TaskListNum Data={Data}/>
+        <TaskList Data={Data}/>
     </div>
   )
 }
